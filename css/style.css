@@ -50,11 +50,44 @@ p {
   background: #333;
 }
 
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  color: #333;
+  background: lightsalmon;
+}
+
 .btn:hover {
   background: coral;
   color: #333;
 }
 
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+.clr{
+  clear: both;
+}
 /* Nav bar */
 
 #navbar {
@@ -116,6 +149,37 @@ p {
   line-height: 1.7em;
 }
 
+/* Home-info */
 
- 
+#home-info {
+  height: 500px;
+}
 
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/thecauldron.jpg') no-repeat top;
+  background-size: cover;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding:20px;
+}
