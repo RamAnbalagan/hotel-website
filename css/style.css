@@ -88,6 +88,21 @@ p {
 .clr{
   clear: both;
 }
+
+.l-heading {
+  font-size: 40px;
+}
+/* Padding  */
+
+.py-1 {
+  padding: 10px 0 ;
+}
+.py-2 {
+  padding: 20px 0 ;
+}
+.py-3 {
+  padding: 30px 0 ;
+}
 /* Nav bar */
 
 #navbar {
@@ -175,6 +190,80 @@ p {
   padding-bottom: 30px;
 }
 
+/* About info */
+
+#about-info .info-right {
+  float:right;
+  width:50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* testimonials */
+
+#testimonials {
+  height: 600px;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top:100px;
+}
+
+#testimonials .testimonial img {
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#testimonials .testimonial {
+  padding:20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+#testimonials h2{
+  color: white;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+/* Contact form */
+
+#contact-form .form-group {
+  margin-bottom:20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding:10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea{
+  height: 250px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: coral;
+}
 /* Footer */
 
 #main-footer {
